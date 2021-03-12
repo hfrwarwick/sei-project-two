@@ -136,6 +136,35 @@ $family-sans-serif: 'Nunito', sans-serif;
   display: flex;
 }
 
+.instructions {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.instruction-title {
+  color: $purple;
+}
+
+.step-number {
+  margin-bottom: 1rem;
+}
+
+.ingredient-box {
+  padding: 1rem;
+}
+.food-title {
+  color: $green;
+}
+
+.sidebar-left {
+}
+.side-content {
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
 // .column {
 //   border: 1px solid red;
 // }
