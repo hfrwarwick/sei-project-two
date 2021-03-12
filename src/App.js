@@ -1,4 +1,5 @@
 import React from 'react'
+require('dotenv').config()
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Home from './components/Home'

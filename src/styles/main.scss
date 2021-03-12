@@ -131,6 +131,16 @@ $family-sans-serif: 'Nunito', sans-serif;
   font-weight: 700;
 }
 
+.back-button {
+  background: $purple;
+  color: white;
+
+  margin-top: 2rem;
+  scale: 2rem;
+  font-family: stratos, sans-serif;
+  font-weight: 700;
+}
+
 .navbar {
   border-bottom: 1px solid rgb(232, 232, 232);
   display: flex;
@@ -156,13 +166,30 @@ $family-sans-serif: 'Nunito', sans-serif;
   color: $green;
 }
 
-.sidebar-left {
-}
 .side-content {
   padding: 2rem;
   text-align: center;
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.cata-button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.cata-button:hover {
+  color: gray;
+}
+.space {
+  margin-top: 1rem;
+  color: $green;
 }
 
 // .column {
