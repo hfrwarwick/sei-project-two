@@ -129,6 +129,7 @@ $family-sans-serif: 'Nunito', sans-serif;
   scale: 2rem;
   font-family: stratos, sans-serif;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .back-button {
@@ -139,6 +140,21 @@ $family-sans-serif: 'Nunito', sans-serif;
   scale: 2rem;
   font-family: stratos, sans-serif;
   font-weight: 700;
+  margin-left: 1rem;
+}
+.my-recipe-button {
+  margin-top: 3rem;
+}
+
+.save-button {
+  background: $green;
+  color: white;
+
+  margin-top: 2rem;
+  scale: 2rem;
+  font-family: stratos, sans-serif;
+  font-weight: 700;
+  margin-left: 1rem;
 }
 
 .navbar {

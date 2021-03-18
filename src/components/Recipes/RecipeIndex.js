@@ -14,14 +14,7 @@ const RecipeIndex = () => {
   const [cuisine, setCuisine] = useState('')
   const [diet, setDiet] = useState('')
 
-  const key = '5471ecd2247e4588a529bc4a2b109a3a'
-
-  console.log(key)
-
-  // 4b24846bd4904b128402cc82a9246202
-  // 5e146c747a1b4458b5b724caad4b2cb6
-  // 0f7f7da500a94e358bd2756e611c52fe
-  // f8e5d17b98dd476f9af939613a890fa8
+  const key = process.env.REACT_APP_FOODS_API_KEY
 
   useEffect(() => {
     const getData = async () => {

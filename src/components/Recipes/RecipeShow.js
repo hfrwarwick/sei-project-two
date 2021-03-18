@@ -7,7 +7,7 @@ import Navbar from '../Navbar-nosearch'
 const RecipeShow = () => {
   const params = useParams()
 
-  const key = '5471ecd2247e4588a529bc4a2b109a3a'
+  const key = process.env.REACT_APP_FOODS_API_KEY
 
   const [recipe, setRecipe] = useState(null)
 
@@ -37,6 +37,14 @@ const RecipeShow = () => {
   useEffect(() => {
     getSimilarData()
   }, [params.id])
+
+  const saveRecipe = () => {
+    const save = params.id
+
+    const randomID = Math.floor(Math.random() * 10000000)
+
+    window.localStorage.setItem(randomID, save)
+  }
 
   if (!recipe) return null
 
@@ -114,6 +122,10 @@ const RecipeShow = () => {
                 <Link to="/recipes">
                   <button className="button back-button">Take me back</button>
                 </Link>
+
+                <button onClick={saveRecipe} className="button save-button">
+                  Save Recipe
+                </button>
               </div>
             </div>
           </div>
