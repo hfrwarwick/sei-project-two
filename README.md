@@ -1,7 +1,7 @@
 <h1> Eatwell- GA Project Two </h1>
 
 My second dev project for the Software Engineering Immersive course, a React app pair-coded with GA classmate Atilla Arslan in a 48-hour hackathon.
-The app has been deployed with Netlify and is available here.
+The app has been deployed with Netlify and is available [here](https://eatwellapp.netlify.app/).
 
 <h2> Brief: </h2>
 
@@ -29,6 +29,7 @@ Spoontacular API <br>
 
 <h2> Demonstration of the App Flow: </h2>
 
+<img src= "https://media.giphy.com/media/55Rn72lkQNVK8ddATn/giphy.gif"  />
 
 The Eatwell app begins with a start page. Pressing the button will lead the user to a recipe index filled with hundreds of recipes. There are filter buttons to the left, divided by cuisines and dietary. The cuisines are Chinese, Indian, Italian, British, Spanish and Mexican, selecting one will filter out all the desired recipes from that type of cuisine, selecting Italian will cause the index to show pizza and pasta for example. The user can filter the index more by selecting a dietary requirement: vegan, vegetarian, pescatarain and ketogenic, and this will show dishes that match that requirement. If the user wants to find a specific recipe, they can use the search bar located at the top. If they were to search for ‘burger’, all burger recipes from the API will appear. Selecting a recipe will lead the user to the recipe showpage. The page shows the full recipe, including description, ingredients, methos, cooking time and how many the recipe serves. Also located at the bottom are similar recipes. If the user would like to return to the index, there is a ‘Take me back’ button. Next to that button is a ‘Save recipe’ button but we weren't able to finish completing that function in the timeframe we had.
 
