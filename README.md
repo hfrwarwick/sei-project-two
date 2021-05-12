@@ -53,6 +53,8 @@ We could then set each parameter to state and make a new request when the state 
 
 Once the data had been set to state it was relatively easy to use the data and map through it to display easy of the recipes in a grid. This was done by passing the data through as props to the RecipeCard component and destructuring it on the other side.
 
+<img src= "https://imgur.com/SL6Lm2j.png"  />
+
 To ensure the app would execute properly we had to add some conditional rendering to the JSX section mapping through the data to check if state returned true before attempting to map through the data.
 ```
 const RecipeCard = ({ meals }) => {
@@ -93,6 +95,10 @@ const RecipeCard = ({ meals }) => {
  
 export default RecipeCard
 ```
+Rceipe showpage:
+
+<img src= "https://imgur.com/T5kGEv2.png"  />
+
 <h2>Wins and Challenges</h2>
 
 This project was a great opportunity to learn how to work in a pair and learn how to split up tasks. Despite only having recently learned React at this point I think the project was a success given we only had 48 hours.
